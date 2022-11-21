@@ -1,0 +1,18 @@
+/* custom cursor */
+.cursor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hover-1 {
+    cursor: url(img/cursor-1.png), auto;
+    /* cursor: move; */
+}
+
+.hover-2 {
+    cursor: url(img/cursor-2.png), auto;
+    /* cursor: progress; */
+}
